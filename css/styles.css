@@ -1,0 +1,147 @@
+.attribution { font-size: 11px; text-align: center; margin-top:3%; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #e6eff6;
+}
+
+h2 {
+  color: #2ab2af;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.top-container h3 {
+  color: #c0df34;
+}
+
+.top-container p {
+  color: #98a6bd;
+  line-height: 2em;
+}
+
+.middle-container p {
+  opacity: 0.8;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width:375px;
+}
+
+.content-master{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-container {
+  background-color: #fff;
+  padding: 6%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #2bb3b1;
+  padding: 6%;
+  color: #fff;
+}
+
+.bottom-container {
+  background-color: #4abebd;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 6%;
+  color: #fff;
+}
+
+.bottom-container ul {
+  opacity: 0.8;
+}
+
+.btn {
+  background-color: #bfdf32;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.2em;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 1.5px 5px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover {
+  opacity:0.6;
+}
+
+#amount {
+  font-size: 2em;
+}
+
+#subscription-type {
+  opacity: 0.5;
+  margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    display:flex;
+    flex-direction: row;
+    max-width: 900px;
+    flex-wrap: wrap;
+  }
+  .col {
+    flex-grow: 1;
+  }
+
+  .middle-container,
+  .bottom-container {
+    flex-basis: 25%;
+  }
+  .bottom-container {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    padding-top:0;
+  }
+  .middle-container {
+    border-bottom-left-radius: 10px;
+    padding-top:0;
+  }
+
+  .top-container{
+    padding-top: 0;
+    padding-bottom:2%;
+  }
+
+  .bottom-container ul{
+    line-height: 1.5;
+    font-size: 1.2em;
+  }
+.btn {
+  margin-top:32px;
+}
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+}
